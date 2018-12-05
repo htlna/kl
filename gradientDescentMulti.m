@@ -1,4 +1,4 @@
-function [theta, cost] = gradientDescentMulty(X, y, theta, anpha,lambda, num_iters)
+function [theta, cost] = gradientDescentMulti(X, y, theta, anpha,lambda, num_iters)
  
  % Initialize some useful values
   m = length(y);  % number of training examples
